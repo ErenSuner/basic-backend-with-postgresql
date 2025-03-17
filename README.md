@@ -1,2 +1,3 @@
-# basic-backend-with-postgresql
-A simple CRUD REST API with Node.js, Express.js, PostgreSQL, Docker, and Joi validation for managing user data
+# Nodejs_Express_Postgresql_Docker_REST_API_Project
+This is CRUD Rest API project build using Node.js Express, Postgresql running on docker container with basic Joi validation for user management.
+

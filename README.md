@@ -17,41 +17,6 @@ A RESTful API built with Node.js and Express, using PostgreSQL running on docker
 - PostgreSQL database
 - npm or yarn
 
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd <project-directory>
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Create a `.env` file in the root directory with the following variables:
-   ```
-   PORT=3000
-   DB_USER=your_db_user
-   DB_HOST=localhost
-   DB_NAME=your_db_name
-   DB_PASSWORD=your_db_password
-   DB_PORT=5432
-   ```
-
-4. Create the database tables:
-   ```
-   npm run setup-db
-   ```
-   This will run the `createUserTable.js` script to create the necessary tables if they don't exist.
-
-## Running the Application
-
-Start the server:
-```
-npm start
-```
 
 The server will start on the port specified in your .env file (defaults to 3000 if not specified).
 
